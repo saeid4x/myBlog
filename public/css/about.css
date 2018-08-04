@@ -1,0 +1,29 @@
+*{
+    text-align: justify;
+    direction: rtl;
+}
+body{
+    background-color: #2980b9;
+    color: white;
+}
+
+.contentAbout{
+    width: 700px;
+    height:100%;
+    border: 1px solid rgba(150,176,166,0.78);
+    margin: 30px 300px 0 0 ;
+    padding: 20px;
+    line-height: 30px;
+
+}
+.contentAbout h2{
+    text-align: center;
+}
+.contentAbout p{
+    margin-top: 30px;
+}
+.contentAbout img{
+    width: 200px;
+    height: 200px;
+    margin:20px  200px 0 0;
+}

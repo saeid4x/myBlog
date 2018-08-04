@@ -1,0 +1,25 @@
+*{
+    direction: rtl;
+    text-align: justify;
+}
+
+#contactSection{
+    width: 800px;
+    height: 100%;
+    margin: 20px 200px 0 0;
+    border: 1px solid rgba(150,176,166,0.78);
+    padding:20px;
+}
+.contact-form{
+    width: 800px;
+    height: 100%;
+
+    margin: 10px 30px 0 0;
+
+}
+.contact-form input,textarea{
+    margin-top: 20px;
+}
+.contact-form input[type="submit"]{
+    width: 150px;
+}

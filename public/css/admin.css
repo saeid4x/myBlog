@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'dinar';
+    src: url("../font/dinar.ttf") format('truetype');
+
+
+}
+*{
+    font-family: dinar;
+}
+
+/*---Top Menu ----*/
+#admin-top-nav{
+    width: 100%;
+    height: 150px;
+    border:1px solid rgba(39,152,225,0.78);
+    background-color: #9b59b6;
+
+
+
+}
+/*--topMenu section right---*/
+#admin-topMenu-right{
+    float: right;
+    width: 250px;
+    height: 130px;
+    /*border:1px solid blue;*/
+
+}
+#admin-topMenu-right >span{
+  top:60px;
+    right:150px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#admin-topMenu-right >img{
+
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 20px 30px 0 0;
+
+
+}
+
+/* --- Right Section ----*/
+#rightSection{
+    float: right;
+    /*border: 1px solid red;*/
+    height:100%;
+
+
+
+}
+#rs-profile{
+    /*border: 1px solid red;*/
+    height:200px;
+    width: 250px;
+    float: right;
+    background-color: #3498db;
+
+}
+#rs-profile>img{
+    /*border: 1px solid red;*/
+    height:100px;
+    width: 100px;
+    /*float: right;*/
+    margin: 15px -15px 0 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+}
+#rs-profile >p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#rs-profile a{
+    padding-right:50px;
+
+  }
+#rs-profile > div{
+    margin-left: 20px;
+
+ }
+#rs-menu{
+    float: right;
+    /*border: 1px solid red;*/
+    height:200px;
+    width: 200px;
+
+}
+#rs-menu ul{
+    text-align: right;
+    direction: rtl;
+    float: right;
+     
+
+}
+/*-----content ------*/
+.content{
+    border: 3px solid rgba(150,176,166,0.78);
+    width: 80%;
+    height: 1500px;
+    margin: 20px 0 0 50px ;
+
+    direction: rtl;
+
+}
+.form-sendPost{
+    float: right;
+    direction: rtl;
+    text-align: right;
+    margin: 0 30px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.form-sendPost div{
+   margin-top: 30px;
+}
+.form-sendPost input{
+    margin-right: 30px;
+    width: 450px;
+    border: 1px solid rgba(150,176,166,0.60);
+}
+
+#digest{
+    border: 1px solid rgba(150,176,166,0.60);
+    margin-right: 30px;
+    width: 450px;
+
+}/*--/digest post--*/
+
+
+#body{
+    border: 1px solid rgba(150,176,166,0.60);
+    margin-right: 30px;
+    width: 700px;
+}/*--/body post---*/
+
+
+.form-sendPost input[type="submit"]{
+    width:250px;
+    height: 50px;
+    float: left;
+}
